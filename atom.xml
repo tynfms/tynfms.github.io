@@ -3,11 +3,11 @@
   <title>TYNFMS</title>
   
   <subtitle>N基数字营</subtitle>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="https://tynfms.github.io/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://tynfms.github.io/"/>
   <updated>2021-02-12T11:30:07.144Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://tynfms.github.io/</id>
   
   <author>
     <name>bjq</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2021/02/10/hello-world/"/>
-    <id>http://yoursite.com/2021/02/10/hello-world/</id>
+    <link href="https://tynfms.github.io/2021/02/10/hello-world/"/>
+    <id>https://tynfms.github.io/2021/02/10/hello-world/</id>
     <published>2021-02-10T07:52:10.928Z</published>
     <updated>2021-02-12T11:30:07.144Z</updated>
     
