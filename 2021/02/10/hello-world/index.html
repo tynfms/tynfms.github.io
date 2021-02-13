@@ -386,7 +386,22 @@ N基数字营会员主要在江苏省天一中学少二（2）班，会员有毕
 
 
 </main>
-
+{% if theme.comment.gitalk.enable %}
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<div id="gitalk-container"></div>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '0d05dee2c9463b10a12a',
+        clientSecret: '8ba9f5fd6d25da50bb301686efb7beba3b104dab',
+        id: window.location.pathname,
+        repo: 'tynfms.github.io',
+        owner: 'tynfms',
+        admin: 'tynfms'
+    })
+    gitalk.render('gitalk-container')
+</script>
+{% endif %}
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 	
 	
