@@ -323,6 +323,7 @@ N基数字营会员主要在江苏省天一中学少二（2）班，会员有李
 
 
 
+    <div class="comments gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -416,6 +417,26 @@ N基数字营会员主要在江苏省天一中学少二（2）班，会员有李
 </script>
 
 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '0d05dee2c9463b10a12a',
+      clientSecret: '1adcab485b8879fc8f1baebe3fa41938389e57b9',
+      repo        : 'tynfms.github.io',
+      owner       : 'tynfms',
+      admin       : ['tynfms'],
+      id          : '0d9b3632d81eb73dbe76bd76c4a2112d',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
