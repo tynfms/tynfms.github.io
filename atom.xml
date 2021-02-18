@@ -6,7 +6,7 @@
   <link href="https://tynfms.github.io/atom.xml" rel="self"/>
   
   <link href="https://tynfms.github.io/"/>
-  <updated>2021-02-15T09:05:41.622Z</updated>
+  <updated>2021-02-15T05:01:31.666Z</updated>
   <id>https://tynfms.github.io/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>members</title>
-    <link href="https://tynfms.github.io/2021/02/15/members/"/>
-    <id>https://tynfms.github.io/2021/02/15/members/</id>
-    <published>2021-02-15T05:00:36.000Z</published>
-    <updated>2021-02-15T09:05:41.622Z</updated>
-    
-    <content type="html"><![CDATA[<p>成员介绍（按姓氏排序）</p><a id="more"></a><ul 毕景琦=""><li>\color{black}</li></ul><p>网站负责人</p><p>提出猜想GII（已证伪），NTIV（待证）</p><ul><li><p>\color{grey}{陈禹畅} rating : 1500</p></li><li><p>\color{green}{李卓航} rating : 1520</p></li></ul><p>提出猜想GI（已证伪）</p><ul><li><p>\color{grey}{刘珉邑} rating : 1500</p></li><li><p>\color{grey}{徐梓岩} rating : 1500</p></li><li><p>\color{grey}{许仁杰} rating : 1500</p></li><li><p>\color{grey}{袁王梓} rating : 1500</p></li><li><p>\color{green}{邹佳晨} rating : 1540</p></li></ul><p>提出猜想GIII（待证）</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;成员介绍（按姓氏排序）&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="about" scheme="https://tynfms.github.io/tags/about/"/>
-    
-  </entry>
   
   <entry>
     <title>班内规划</title>
