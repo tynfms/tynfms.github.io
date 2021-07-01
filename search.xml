@@ -81,7 +81,7 @@ Upd:</p>
     <title>班内规划</title>
     <url>/2021/02/14/sch/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="35c057fb15661ca132be950f386e0b623e0a274e67e85053faf8e7fc194f036d">76cea1aaef669997aa5174985065b8c06dabe75ab05bf1049f4d566efe254be365f690efe55c143a27b4acb08d35e62ca370a8b23c104e804083cb7aa0c72c2afae67a3cf0b356a7b9c4f7446c6f4aa7035252d0bd393855e6e4d3667d4e7efca4d32b7c5897292e06c6129364931dc4b9261cf318de852030aa865dee7972ddc29c95aff4e8cf1a0a1428a29804804fbecccfc16b91ff5c2bd4f0cb5bd569cd00b0f4025e245d8a5d04fde05d39a15be841fb1fa151176445bb13bcab21dc0340f82370646b2dab7a4c661688a8bd7db297b23a76e134c2686e6046ae1909c26bc3bb641f7c80c76706edd96d0b3233515a20da53a51c34454e57ea2a4fa5a728188b6ce9b442bfa5e8bd3a197d5b534de5830e0747b0794c008f2ca697edf369bb043afa32bf6b788e17df10076c82d6bf4e3950bd31d77b74c99dce14694cfcf53cafe3534eb30dbfff5e7b5cfa495ecf09e2cdbd65dde7907e8d92ca0c4df77f378cc076c09bbd351f6f96970566240a7fd452772fc93240f1ef09f07806c22f474d6e46202336c09d4f2c00f9580d4bb8d750e13dafc711db3f5f8f5129cd5b52f70c4361c2d73faf27659c36e55ca24573ee37ea011ac016aa2e7c84e09a42efaab1c3b1ce1cfcfd4b6833a6de1b4f0e3d61fd9f8547b8619e4c6c5245133e030880a40fccb9433290de1b149e37241fb575c413ed046dfddafb6ac7e1810ffcb8886cdc860f5f276f4e24498563e18c041e64eb38c65dc571c2b967aa99b5f243d9be5a4dfbaac5fc062cabcc0f1ba5ecee1eb1bf6baa36bc3f70c27afd06dfbde86ff5f97904dc987eff1cd0364195f2f13ca9c2f3f263a13ed80f3257cf3a37d2e74f0da8c3574192ef2d656a62f6d9a2de47c97c485dd3cdb8f57b6fc003292bc0c69d860460853ac9db0f5e8b690b2e46f262c476d567b3c2997f7ffab30c52e41117c1c5a79209ecd186c1f43c36e70d4e8457cb59f37b2c2e2c4e6826f95221341bbdf6aa1a287512068386c94d886cbd06046885708c095df9</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="6fdaab69b0f5a6e9465aabe514878f40a33e257b55263f9e86f570f0c71f7dbd">76cea1aaef669997aa5174985065b8c06dabe75ab05bf1049f4d566efe254be365f690efe55c143a27b4acb08d35e62cabde147c6f52990936606a94294cd6af13300c1440a502aa6437f6db0ca82c9d65ccdf181f88ff5032228c1049f371a183ffe178326800047da1db9c61ecaae968f574a2f220a08f89d60cec106e7205dc97e731f381bdcccdd6cd6d3b58c140d5136c2836b7c05d194bea99055e217409955fba326d1ab0fdb13094dc21ed4cac2b605e5e5456b4dccb1782d8400ea4131ad01bb4ed3f09a9da6160e6dd2640</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -94,6 +94,19 @@ Upd:</p>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>about</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>考前膜拜对象研究 PEMCS</title>
+    <url>/2021/07/01/PEMCS/</url>
+    <content><![CDATA[<p>PEMCS项目启动！<br>
+考前膜拜对象研究（PEMCS, Pre-Examinations Modify Class Study），是一项造福老百姓的研究，也将成为古今中外玄学史的里程碑！<br>
+目前算法负责人：bjq, cth<br>
+参与者：N基全体成员<br>
+研究对象：待定</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      <tags>
+        <tag>Projects</tag>
       </tags>
   </entry>
 </search>
