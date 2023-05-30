@@ -884,6 +884,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_6">
@@ -968,6 +970,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xgjnb/wheresthesolution1/" class="md-nav__link">
+        杂题选一
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1035,18 +1051,18 @@
 <details class="note" open="open">
 <summary>问题1</summary>
 <p>设非负实数<span class="arithmatex"><span class="MathJax_Preview">a_1,a_2,\cdots,a_{100}</span><script type="math/tex">a_1,a_2,\cdots,a_{100}</script></span>满足：<span class="arithmatex"><span class="MathJax_Preview">a_i+a_{i+1}+a_{i+2}\le 1(1\le i\le 100)</span><script type="math/tex">a_i+a_{i+1}+a_{i+2}\le 1(1\le i\le 100)</script></span>，其中<span class="arithmatex"><span class="MathJax_Preview">a_{101}=a_1,a_{102}=a_2</span><script type="math/tex">a_{101}=a_1,a_{102}=a_2</script></span>，试求
-<span class="arithmatex"><span class="MathJax_Preview">I=\Sigma_{i=1}^{100}a_ia_{i+2}</span><script type="math/tex">I=\Sigma_{i=1}^{100}a_ia_{i+2}</script></span>
+<span class="arithmatex"><span class="MathJax_Preview">I=\sum_{i=1}^{100}a_ia_{i+2}</span><script type="math/tex">I=\sum_{i=1}^{100}a_ia_{i+2}</script></span>
 的最大值</p>
 </details>
-<p>这道题很好猜最大值：当<span class="arithmatex"><span class="MathJax_Preview">a_{2k-1}=\frac{1}{2},a_{2k}=0(1\le k\le50)</span><script type="math/tex">a_{2k-1}=\frac{1}{2},a_{2k}=0(1\le k\le50)</script></span>时，<span class="arithmatex"><span class="MathJax_Preview">I_{max}=\frac{25}{2}</span><script type="math/tex">I_{max}=\frac{25}{2}</script></span></p>
+<p>这道题很好猜最大值：当<span class="arithmatex"><span class="MathJax_Preview">a_{2k-1}=\dfrac{1}{2},a_{2k}=0(1\le k\le50)</span><script type="math/tex">a_{2k-1}=\dfrac{1}{2},a_{2k}=0(1\le k\le50)</script></span>时，<span class="arithmatex"><span class="MathJax_Preview">I_{max}=\dfrac{25}{2}</span><script type="math/tex">I_{max}=\dfrac{25}{2}</script></span></p>
 <p>由此我们引发对<span class="arithmatex"><span class="MathJax_Preview">I</span><script type="math/tex">I</script></span>表达式进行<strong>奇偶裂项</strong>的思考，即</p>
 <div class="arithmatex">
-<div class="MathJax_Preview">I=\Sigma_{k=1}^{50}a_{2k-1}a_{2k+1} + \Sigma_{k=1}^{50}a_{2k}a_{2k+2}</div>
-<script type="math/tex; mode=display">I=\Sigma_{k=1}^{50}a_{2k-1}a_{2k+1} + \Sigma_{k=1}^{50}a_{2k}a_{2k+2}</script>
+<div class="MathJax_Preview">I=\sum_{k=1}^{50}a_{2k-1}a_{2k+1} + \sum_{k=1}^{50}a_{2k}a_{2k+2}</div>
+<script type="math/tex; mode=display">I=\sum_{k=1}^{50}a_{2k-1}a_{2k+1} + \sum_{k=1}^{50}a_{2k}a_{2k+2}</script>
 </div>
 <p><strong>一方面</strong></p>
-<p>随后容易想到结合题目条件用均值不等式<span class="arithmatex"><span class="MathJax_Preview">xy\le\frac{x^2+y^2}{2}</span><script type="math/tex">xy\le\frac{x^2+y^2}{2}</script></span>与<span class="arithmatex"><span class="MathJax_Preview">xy\le(\frac{x+y}{2})^2</span><script type="math/tex">xy\le(\frac{x+y}{2})^2</script></span>进行放缩</p>
-<p>但我们很快发现这种放缩不合理，源于取等时<span class="arithmatex"><span class="MathJax_Preview">a_{2k}+a_{2k+1}+a_{2k+2}=\frac{1}{2}&lt;1</span><script type="math/tex">a_{2k}+a_{2k+1}+a_{2k+2}=\frac{1}{2}<1</script></span></p>
+<p>随后容易想到结合题目条件用均值不等式<span class="arithmatex"><span class="MathJax_Preview">xy\le\dfrac{x^2+y^2}{2}</span><script type="math/tex">xy\le\dfrac{x^2+y^2}{2}</script></span>与<span class="arithmatex"><span class="MathJax_Preview">xy\le(\dfrac{x+y}{2})^2</span><script type="math/tex">xy\le(\dfrac{x+y}{2})^2</script></span>进行放缩</p>
+<p>但我们很快发现这种放缩不合理，源于取等时<span class="arithmatex"><span class="MathJax_Preview">a_{2k}+a_{2k+1}+a_{2k+2}=\dfrac{1}{2}&lt;1</span><script type="math/tex">a_{2k}+a_{2k+1}+a_{2k+2}=\dfrac{1}{2}<1</script></span></p>
 <p><strong>另一方面</strong></p>
 <p>引发我们对<span class="arithmatex"><span class="MathJax_Preview">I</span><script type="math/tex">I</script></span>式强度的思考，我们用调整的思想处理<span class="arithmatex"><span class="MathJax_Preview">I</span><script type="math/tex">I</script></span></p>
 <p>若<span class="arithmatex"><span class="MathJax_Preview">a_{k}+a_{k+1}+a_{k+2}=1</span><script type="math/tex">a_{k}+a_{k+1}+a_{k+2}=1</script></span>，我们称序列第<span class="arithmatex"><span class="MathJax_Preview">j</span><script type="math/tex">j</script></span>项被覆盖(<span class="arithmatex"><span class="MathJax_Preview">j\in\{k,k+1,k+2\}</span><script type="math/tex">j\in\{k,k+1,k+2\}</script></span>)</p>
@@ -1059,7 +1075,7 @@
 &amp;a_{2k-1}a_{2k+1}+a_{2k}a_{2k+2}\\
 \le &amp;(1-a_{2k}-a_{2k+1})a_{2k+1}+a_{2k}(1-a_{2k}-a_{2k+1})\\
 =&amp;(1-a_{2k}-a_{2k+1})(a_{2k}+a_{2k+1})
-\le\frac{1}{4}
+\le\dfrac{1}{4}
 \end{aligned}
 </div>
 <script type="math/tex; mode=display">
@@ -1067,33 +1083,33 @@
 &a_{2k-1}a_{2k+1}+a_{2k}a_{2k+2}\\
 \le &(1-a_{2k}-a_{2k+1})a_{2k+1}+a_{2k}(1-a_{2k}-a_{2k+1})\\
 =&(1-a_{2k}-a_{2k+1})(a_{2k}+a_{2k+1})
-\le\frac{1}{4}
+\le\dfrac{1}{4}
 \end{aligned}
 </script>
 </div>
-<p>从而将分拆得到的<span class="arithmatex"><span class="MathJax_Preview">50</span><script type="math/tex">50</script></span>项累加，即得答案<span class="arithmatex"><span class="MathJax_Preview">\frac{25}{2}</span><script type="math/tex">\frac{25}{2}</script></span></p>
+<p>从而将分拆得到的<span class="arithmatex"><span class="MathJax_Preview">50</span><script type="math/tex">50</script></span>项累加，即得答案<span class="arithmatex"><span class="MathJax_Preview">\dfrac{25}{2}</span><script type="math/tex">\dfrac{25}{2}</script></span></p>
 <details class="note" open="open">
 <summary>问题2</summary>
-<p>给定正整数<span class="arithmatex"><span class="MathJax_Preview">n\ge 2</span><script type="math/tex">n\ge 2</script></span>，非负实数<span class="arithmatex"><span class="MathJax_Preview">a_i(1\le i\le n)</span><script type="math/tex">a_i(1\le i\le n)</script></span>满足<span class="arithmatex"><span class="MathJax_Preview">\Sigma_{i=1}^{100}a_i=1</span><script type="math/tex">\Sigma_{i=1}^{100}a_i=1</script></span>，试求
-<span class="arithmatex"><span class="MathJax_Preview">I=\Sigma_{1\le i&lt;j\le n}(j-i)a_ia_j</span><script type="math/tex">I=\Sigma_{1\le i<j\le n}(j-i)a_ia_j</script></span>
+<p>给定正整数<span class="arithmatex"><span class="MathJax_Preview">n\ge 2</span><script type="math/tex">n\ge 2</script></span>，非负实数<span class="arithmatex"><span class="MathJax_Preview">a_i(1\le i\le n)</span><script type="math/tex">a_i(1\le i\le n)</script></span>满足<span class="arithmatex"><span class="MathJax_Preview">\sum_{i=1}^{100}a_i=1</span><script type="math/tex">\sum_{i=1}^{100}a_i=1</script></span>，试求
+<span class="arithmatex"><span class="MathJax_Preview">I=\sum_{1\le i&lt;j\le n}(j-i)a_ia_j</span><script type="math/tex">I=\sum_{1\le i<j\le n}(j-i)a_ia_j</script></span>
 的最大值</p>
 </details>
-<p>这道题很好猜最大值：当<span class="arithmatex"><span class="MathJax_Preview">a_1=a_n=\frac{1}{2}</span><script type="math/tex">a_1=a_n=\frac{1}{2}</script></span>时，<span class="arithmatex"><span class="MathJax_Preview">I_{max}=\frac{n-1}{4}</span><script type="math/tex">I_{max}=\frac{n-1}{4}</script></span></p>
+<p>这道题很好猜最大值：当<span class="arithmatex"><span class="MathJax_Preview">a_1=a_n=\dfrac{1}{2}</span><script type="math/tex">a_1=a_n=\dfrac{1}{2}</script></span>时，<span class="arithmatex"><span class="MathJax_Preview">I_{max}=\dfrac{n-1}{4}</span><script type="math/tex">I_{max}=\dfrac{n-1}{4}</script></span></p>
 <p>原因很好想，盈亏问题，直观感悟，但最重要的是证明不好想</p>
 <p>这个式子结构很复杂，因此直观思考是代数变形或还原简化结构</p>
 <div class="arithmatex">
 <div class="MathJax_Preview">
 \begin{aligned}
-I=&amp;\Sigma_{1\le i&lt;j\le n}(j-i)a_ia_j\\
-=&amp;\Sigma_{i=2}^{100}(a_i\times(\Sigma_{j=1}^{i-1}(i-j)a_j))\\
+I=&amp;\sum_{1\le i&lt;j\le n}(j-i)a_ia_j\\
+=&amp;\sum_{i=2}^{100}(a_i\times(\sum_{j=1}^{i-1}(i-j)a_j))\\
 =&amp;a_2\times(a_1)+a_3\times(2a_1+a_2)+a_4\times(3a_1+2a_2+a_3)+\cdots\\
 +&amp;a_{n}((n-1)a_1+(n-2)a_2+\cdots+2a_{n-2}+a_{n-1})
 \end{aligned}
 </div>
 <script type="math/tex; mode=display">
 \begin{aligned}
-I=&\Sigma_{1\le i<j\le n}(j-i)a_ia_j\\
-=&\Sigma_{i=2}^{100}(a_i\times(\Sigma_{j=1}^{i-1}(i-j)a_j))\\
+I=&\sum_{1\le i<j\le n}(j-i)a_ia_j\\
+=&\sum_{i=2}^{100}(a_i\times(\sum_{j=1}^{i-1}(i-j)a_j))\\
 =&a_2\times(a_1)+a_3\times(2a_1+a_2)+a_4\times(3a_1+2a_2+a_3)+\cdots\\
 +&a_{n}((n-1)a_1+(n-2)a_2+\cdots+2a_{n-2}+a_{n-1})
 \end{aligned}
@@ -1103,36 +1119,86 @@ I=&\Sigma_{1\le i<j\le n}(j-i)a_ia_j\\
 <p>故考虑用序列<span class="arithmatex"><span class="MathJax_Preview">a</span><script type="math/tex">a</script></span>的前缀和进行转换。当然不知道也不要紧，这个引发思考是极显然的。</p>
 <p>自此，我们设<span class="arithmatex"><span class="MathJax_Preview">S_k=a_1+a_2+\cdots+a_k(1\le k\le n)</span><script type="math/tex">S_k=a_1+a_2+\cdots+a_k(1\le k\le n)</script></span>，有<span class="arithmatex"><span class="MathJax_Preview">S_n=1</span><script type="math/tex">S_n=1</script></span>。因而对某个<span class="arithmatex"><span class="MathJax_Preview">i</span><script type="math/tex">i</script></span>，有</p>
 <div class="arithmatex">
-<div class="MathJax_Preview">\Sigma_{j=1}^{i-1}(i-j)a_j=S_1+S_2+\cdots+S_{i-1}</div>
-<script type="math/tex; mode=display">\Sigma_{j=1}^{i-1}(i-j)a_j=S_1+S_2+\cdots+S_{i-1}</script>
+<div class="MathJax_Preview">\sum_{j=1}^{i-1}(i-j)a_j=S_1+S_2+\cdots+S_{i-1}</div>
+<script type="math/tex; mode=display">\sum_{j=1}^{i-1}(i-j)a_j=S_1+S_2+\cdots+S_{i-1}</script>
 </div>
 <p>从而</p>
 <div class="arithmatex">
-<div class="MathJax_Preview">I=\Sigma_{i=2}^{n}(a_i\times\Sigma_{j=1}^{i-1}S_j)</div>
-<script type="math/tex; mode=display">I=\Sigma_{i=2}^{n}(a_i\times\Sigma_{j=1}^{i-1}S_j)</script>
+<div class="MathJax_Preview">I=\sum_{i=2}^{n}(a_i\times\sum_{j=1}^{i-1}S_j)</div>
+<script type="math/tex; mode=display">I=\sum_{i=2}^{n}(a_i\times\sum_{j=1}^{i-1}S_j)</script>
 </div>
 <p>容易联想到<strong>将此式对<span class="arithmatex"><span class="MathJax_Preview">S_i</span><script type="math/tex">S_i</script></span>整理以构造新的前缀和进行简化</strong>：</p>
 <div class="arithmatex">
 <div class="MathJax_Preview">
 \begin{aligned}
-I&amp;=\Sigma_{i=2}^{n}(a_i\times\Sigma_{j=1}^{i-1}S_j)\\
-&amp;=\Sigma_{i=1}^{n-1}(S_i\Sigma_{j=i+1}^{n}a_j)\\
-&amp;=\Sigma_{i=1}^{n-1}(S_i(S_n-S_i))\\
-&amp;=\Sigma_{i=1}^{n-1}(S_i-S_i^2)\\
-&amp;\le\Sigma_{i=1}^{n-1}\frac{1}{4}=\frac{n-1}{4}
+I&amp;=\sum_{i=2}^{n}(a_i\times\sum_{j=1}^{i-1}S_j)\\
+&amp;=\sum_{i=1}^{n-1}(S_i\sum_{j=i+1}^{n}a_j)\\
+&amp;=\sum_{i=1}^{n-1}(S_i(S_n-S_i))\\
+&amp;=\sum_{i=1}^{n-1}(S_i-S_i^2)\\
+&amp;\le\sum_{i=1}^{n-1}\dfrac{1}{4}=\dfrac{n-1}{4}
 \end{aligned}
 </div>
 <script type="math/tex; mode=display">
 \begin{aligned}
-I&=\Sigma_{i=2}^{n}(a_i\times\Sigma_{j=1}^{i-1}S_j)\\
-&=\Sigma_{i=1}^{n-1}(S_i\Sigma_{j=i+1}^{n}a_j)\\
-&=\Sigma_{i=1}^{n-1}(S_i(S_n-S_i))\\
-&=\Sigma_{i=1}^{n-1}(S_i-S_i^2)\\
-&\le\Sigma_{i=1}^{n-1}\frac{1}{4}=\frac{n-1}{4}
+I&=\sum_{i=2}^{n}(a_i\times\sum_{j=1}^{i-1}S_j)\\
+&=\sum_{i=1}^{n-1}(S_i\sum_{j=i+1}^{n}a_j)\\
+&=\sum_{i=1}^{n-1}(S_i(S_n-S_i))\\
+&=\sum_{i=1}^{n-1}(S_i-S_i^2)\\
+&\le\sum_{i=1}^{n-1}\dfrac{1}{4}=\dfrac{n-1}{4}
 \end{aligned}
 </script>
 </div>
-<p>故成立，注意到取等条件即<span class="arithmatex"><span class="MathJax_Preview">S_1=S_2=\cdots=S_n=\frac{1}{2}</span><script type="math/tex">S_1=S_2=\cdots=S_n=\frac{1}{2}</script></span>，用<span class="arithmatex"><span class="MathJax_Preview">a_i=S_i-S_{i-1}(2\le i\le n),a_1=S_1</span><script type="math/tex">a_i=S_i-S_{i-1}(2\le i\le n),a_1=S_1</script></span>转化，即<span class="arithmatex"><span class="MathJax_Preview">a_1=a_n=\frac{1}{2}，a_2=a_3=\cdots=a_{n-1}=0</span><script type="math/tex">a_1=a_n=\frac{1}{2}，a_2=a_3=\cdots=a_{n-1}=0</script></span>时<span class="arithmatex"><span class="MathJax_Preview">I_{max}=\frac{n-1}{4}</span><script type="math/tex">I_{max}=\frac{n-1}{4}</script></span></p>
+<p>故成立，注意到取等条件即<span class="arithmatex"><span class="MathJax_Preview">S_1=S_2=\cdots=S_n=\dfrac{1}{2}</span><script type="math/tex">S_1=S_2=\cdots=S_n=\dfrac{1}{2}</script></span>，用<span class="arithmatex"><span class="MathJax_Preview">a_i=S_i-S_{i-1}(2\le i\le n),a_1=S_1</span><script type="math/tex">a_i=S_i-S_{i-1}(2\le i\le n),a_1=S_1</script></span>转化，即<span class="arithmatex"><span class="MathJax_Preview">a_1=a_n=\dfrac{1}{2}，a_2=a_3=\cdots=a_{n-1}=0</span><script type="math/tex">a_1=a_n=\dfrac{1}{2}，a_2=a_3=\cdots=a_{n-1}=0</script></span>时<span class="arithmatex"><span class="MathJax_Preview">I_{max}=\dfrac{n-1}{4}</span><script type="math/tex">I_{max}=\dfrac{n-1}{4}</script></span></p>
+<details class="note" open="open">
+<summary>问题3</summary>
+<p>对所有实数<span class="arithmatex"><span class="MathJax_Preview">x_1,x_2,\cdots,x_{60}\in[-1,1]</span><script type="math/tex">x_1,x_2,\cdots,x_{60}\in[-1,1]</script></span>，求<span class="arithmatex"><span class="MathJax_Preview">I=\sum_{i=1}^{60}x_i^2(x_{i+1}-x{i-1})</span><script type="math/tex">I=\sum_{i=1}^{60}x_i^2(x_{i+1}-x{i-1})</script></span>的最大值，这里定义<span class="arithmatex"><span class="MathJax_Preview">x_0=x_{60},x_1=x_{61}</span><script type="math/tex">x_0=x_{60},x_1=x_{61}</script></span></p>
+</details>
+<p>这道题提供的结构是很奇怪的，但我们最初的想法一定是对式子进行代数变形</p>
+<p>不难猜到取等下序列应该呈现<span class="arithmatex"><span class="MathJax_Preview">(-1,0,1)</span><script type="math/tex">(-1,0,1)</script></span>的一个轮换，由此我们考虑到使用局部不等式<span class="arithmatex"><span class="MathJax_Preview">x^2\le x(0\le x\le1),x^2\le-x(-1\le x\le0)</span><script type="math/tex">x^2\le x(0\le x\le1),x^2\le-x(-1\le x\le0)</script></span></p>
+<p>使用的方法就是将大于<span class="arithmatex"><span class="MathJax_Preview">0</span><script type="math/tex">0</script></span>的项对应的指标分类为集合<span class="arithmatex"><span class="MathJax_Preview">P</span><script type="math/tex">P</script></span>，我们发现式子被整理为<span class="arithmatex"><span class="MathJax_Preview">x_ix_{i+1}</span><script type="math/tex">x_ix_{i+1}</script></span>的计数形式，我们接下来可以考虑从每个<span class="arithmatex"><span class="MathJax_Preview">x_ix_{i+1}</span><script type="math/tex">x_ix_{i+1}</script></span>对全式的贡献为视角解题</p>
+<p>这种想法看上去和原题很搭，浑然一体，但我们很快发现我们忽略了<span class="arithmatex"><span class="MathJax_Preview">x_{i+1}-x_{i-1}</span><script type="math/tex">x_{i+1}-x_{i-1}</script></span>这一项的符号，再加上这一项讨论难免显得繁琐</p>
+<p>作者认为整体视角思路行得通，但在此题里用此计算不值得，接下来我们从局部视角分析本题</p>
+<p>原体中，乘积项<span class="arithmatex"><span class="MathJax_Preview">x_{i+1}-x_{i-1}</span><script type="math/tex">x_{i+1}-x_{i-1}</script></span>跨了一项是我们处理起来比较反感的，我们希望通过代数变形将这一差项划归为邻项，这一步骤不难</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\begin{aligned}
+I&amp;=\sum_{i=1}^{60}x_i^2(x_{i+1}-x_{i-1})\\
+&amp;=\sum_{i=1}^{60}x_i^2x-{i+1}-\sum_{i=1}^{60}x_ix_{i+1}^2\\
+&amp;=\sum_{i=1}^{60}x_ix_{i+1}(x_i-x_{i+1})
+\end{aligned}
+</div>
+<script type="math/tex; mode=display">
+\begin{aligned}
+I&=\sum_{i=1}^{60}x_i^2(x_{i+1}-x_{i-1})\\
+&=\sum_{i=1}^{60}x_i^2x-{i+1}-\sum_{i=1}^{60}x_ix_{i+1}^2\\
+&=\sum_{i=1}^{60}x_ix_{i+1}(x_i-x_{i+1})
+\end{aligned}
+</script>
+</div>
+<p>此式已化成理想类型，我们希望进一步“化归”，联想恒等式<span class="arithmatex"><span class="MathJax_Preview">(x_i-x_{i+1})^3=x_i^3-x_{i+1}^3-3x_ix_{i+1}(x_i-x_{i+1})</span><script type="math/tex">(x_i-x_{i+1})^3=x_i^3-x_{i+1}^3-3x_ix_{i+1}(x_i-x_{i+1})</script></span></p>
+<p>我们发现这里产生了题目中的结构产生了可以相消的轮换，我们立即用此恒等式处理上式</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\begin{aligned}
+I&amp;=\sum_{i=1}^{60}x_ix_{i+1}(x_i-x_{i+1})\\
+&amp;=\dfrac{1}{3}\sum_{i=1}^{60}((x_{i+1}^3-x_i^3)-3x_ix_{i+1}(x_{i+1}-x_i))\\
+&amp;=\dfrac{1}{3}\sum_{i=1}^{60}(x_{i+1}-x_i)^3
+\end{aligned}
+</div>
+<script type="math/tex; mode=display">
+\begin{aligned}
+I&=\sum_{i=1}^{60}x_ix_{i+1}(x_i-x_{i+1})\\
+&=\dfrac{1}{3}\sum_{i=1}^{60}((x_{i+1}^3-x_i^3)-3x_ix_{i+1}(x_{i+1}-x_i))\\
+&=\dfrac{1}{3}\sum_{i=1}^{60}(x_{i+1}-x_i)^3
+\end{aligned}
+</script>
+</div>
+<p>现在看这个式子已经简单了许多，注意到每个三次方项的底数之和为一个轮换，从而我们想将此三次方项化归到一次，且我们希望通过适当的系数消除构造出来的三次不等式中的二次项</p>
+<p>由此我们便用上了题目里所给的范围条件，结合我们所猜的取等条件，我们构造<span class="arithmatex"><span class="MathJax_Preview">(x+1)^2(x-2)\le 0</span><script type="math/tex">(x+1)^2(x-2)\le 0</script></span>，展开即得<span class="arithmatex"><span class="MathJax_Preview">x^3\le 3x+2</span><script type="math/tex">x^3\le 3x+2</script></span></p>
+<p>从而我们累加即得最大值为<span class="arithmatex"><span class="MathJax_Preview">40</span><script type="math/tex">40</script></span>，取等条件即序列为<span class="arithmatex"><span class="MathJax_Preview">(-1,0,1)</span><script type="math/tex">(-1,0,1)</script></span>的轮换</p>
+<details class="note" open="open">
+<summary>问题4</summary>
+</details>
 
 
 
